@@ -1,0 +1,23 @@
+html,body{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/0kjHIH6/animation-of-1980s-old-arcade-super-mario-bros-clouds-background_vywb1uvex__F0000.png");
+    background-size: cover;
+  }
+    #mario{
+        width: 200px;
+        display: block;
+        margin: auto;
+        transition: transform 0,9s;
+        z-index: -2;
+    }
+    #cano{
+        width: 280px;
+        display: block;
+        margin: auto;
+    }
+    #mario:active{
+       transform: translateY(250px)
+    }
